@@ -80,9 +80,8 @@
 # f.close()
 
 # Modificá tu programa costo_camion.py para que use el módulo csv para leer los archivos
-
-def costo_camion(nombre_archivo):
-    import csv
+import csv
+def costo_camion(nombre_archivo):    
     f = open(nombre_archivo)  
     rows = csv.reader(f)  
     costo_total = 0
