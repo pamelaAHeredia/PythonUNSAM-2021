@@ -1,3 +1,4 @@
+# Ejercicio 2.10: Ejecución desde la línea de comandos con parámetros
 import csv
 import sys
 
@@ -20,5 +21,5 @@ if len(sys.argv) == 2:
 else:
     nombre_archivo = 'Data/camion.csv'
 
-costo = costo_camion(nombre_archivo)
-print('Costo total:', costo)
+# costo = costo_camion(nombre_archivo)
+print('Costo total:', costo_camion(nombre_archivo))

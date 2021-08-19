@@ -1,10 +1,3 @@
-# Ejercicio 2.5: Definir una función
-def saludar(nombre):
-    print('¡ Hola,',nombre,'!')
-
-name = input('¿cuál es tu nombre? ingresalo acá: ')
-saludar(name)
-
 # Ejercicio 2.7: Buscar precios
 print()
 

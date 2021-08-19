@@ -79,6 +79,7 @@
 
 # f.close()
 
+# Ejercicio 2.9: Funciones de la biblioteca
 # Modificá tu programa costo_camion.py para que use el módulo csv para leer los archivos
 import csv
 def costo_camion(nombre_archivo):    
